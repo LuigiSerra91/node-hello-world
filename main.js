@@ -14,7 +14,7 @@ const adminPin = 666
 
 //usate il modulo process per recuperare e stampare in console dalla proprietá env la variabile PIN
 
-const PIN = process.env.PIN
+const pin = process.env.PIN
 
 //ora passate un argomento al vostro script e recuperatene il valore usando process e la proprietá argv per stamparlo in console
 
@@ -26,7 +26,7 @@ console.log(process.argv);
 //se il valore dell'argomento é admin ed il valore di PIN definito é 666 allora stampa in console Welcome Admin
 //altrimenti stampa Access restricted
 
-if(PIN == adminPin && admin == 'admin'){
+if(pin == adminPin && admin == 'admin'){
     console.log('Welcome Admin');
     
 } else{
