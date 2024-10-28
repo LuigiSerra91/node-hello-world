@@ -2,11 +2,6 @@
 Creiamo la prima applicazione con NodeJs:
 
 fate girare lo script usando node main.js
-
-
-
-
-
 */
 
 //Iniziate creando un file main.js con un semplice console.log che dica hello node js
