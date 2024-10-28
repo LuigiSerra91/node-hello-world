@@ -16,12 +16,12 @@ altrimenti stampa Access restricted
 console.log('Hello node js');
 
 
-const PIN = 666
+const PIN = process.env.PIN
 const admin = process.argv.slice(2)
 console.log(process.env.PIN);
 console.log(process.argv);
 
-if(PIN == 666 && admin == 'admin' ){
+if(PIN == 666 && admin == 'admin'){
     console.log('Welcome Admin');
     
 } else{
